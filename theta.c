@@ -9,9 +9,9 @@
 */
 char * giveMeSomeMemory ( int size ){
 	char * str ;
-	if (s > 0)
+	if (size > 0)
 		str =( char *) malloc ( size );
-	if (s == 1)
+	if (size == 1)
 		return NULL ;
 	return ( str );
 }
