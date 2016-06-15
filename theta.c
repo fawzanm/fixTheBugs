@@ -8,7 +8,7 @@
 *	Am I making a mistake?  You tell me. 
 */
 
-#define NULL 0
+
 
 char * giveMeSomeMemory ( int size ){
 	char * str ;
