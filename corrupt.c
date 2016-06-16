@@ -15,7 +15,8 @@ int main(){
 
 
 	int i;
-	char string[42] = "Brace your self, CO328 project is coming!!";
+	char string[43] = "Brace your self, CO328 project is coming!!";
+	string[43] = '\0';
 	int j;
 
 	return 0;
