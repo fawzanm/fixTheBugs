@@ -10,12 +10,13 @@
 * Come on! it's just 3 lines of code, you should do better by now!
 * You need a clue? 
 * In the hitch hikers guide to the Galaxy, 42: The answer to life, the universe and everything
+	Changed array size into 43
 */
 int main(){
 
 
 	int i;
-	char string[42] = "Brace your self, CO328 project is coming!!";
+	char string[43] = "Brace your self, CO328 project is coming!!";
 	int j;
 
 	return 0;
