@@ -10,9 +10,9 @@
 */
 int main(){
 
-	int x;
+	long x;
 	for(x=43; x<12423; x++);
-  		printf('x = %d \n', x);
+  		printf('x = %ld \n', x);
 
 	return 0;
 }
