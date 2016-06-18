@@ -9,7 +9,6 @@
 */
 
 
-
 char * giveMeSomeMemory ( int size ){
 	char * str ;
 	if (size > 0)
