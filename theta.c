@@ -9,12 +9,18 @@
 */
 
 
-
 char * giveMeSomeMemory ( int size ){
 	char * str ;
-	if (size > 0)
+	if (size > 0){
 		str =( char *) malloc ( size );
-	if (size == 1)
-		return NULL ;
-	return ( str );
+		if(str!=NULL)
+			return str;
+		else
+			return NULL;
+	}else{
+		return NULL;
+	}
+	
+	
 }
+

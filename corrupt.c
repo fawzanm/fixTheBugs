@@ -15,8 +15,8 @@ int main(){
 
 
 	int i;
-	char string[42] = "Brace your self, CO328 project is coming!!";
+	//no need to define size of array when it's assigned like following 
+	char string[] = "Brace your self, CO328 project is coming!!";
 	int j;
-
 	return 0;
 }
