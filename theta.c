@@ -8,12 +8,12 @@
 *	Am I making a mistake?  You tell me. 
 */
 
-
+#include <stdlib.h>
 
 char * giveMeSomeMemory ( int size ){
 	char * str ;
 	if (size > 0)
-		str =( char *) malloc ( size );
+		str =( char *) malloc ( size * sizeof(char));
 	else
 		return NULL ;
 	return ( str );
