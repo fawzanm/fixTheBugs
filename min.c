@@ -8,12 +8,17 @@
 * 	@param int* A 	pointeer to an integer array
 *	@param int n 	number of elements in the array
 */
+
++#include<limits.h>
+
 int getMin(int *Array, int n) {
   
-  int currmin = MAXINT;
-
+  -int currmin = MAXINT;
+  +int currmin = INT_MAX;
+  
   for (int i=0; i<n; i++)
-    if (Array[i] < currmin)
+    -if (Array[i] < currmin)
+    +if (Array[i] > currmin)
       currmin = Array[i];
   return currmin;
 
