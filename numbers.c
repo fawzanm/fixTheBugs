@@ -11,8 +11,8 @@
 int main(){
 
 	int x;
-	for(x=43; x<12423; x++);
-  		printf('x = %d \n', x);
+	for(x=43; x<12423; x++)   // fix bug and you can see now code print some numbers 
+  		printf("x = %d \n", x);
 
 	return 0;
 }
