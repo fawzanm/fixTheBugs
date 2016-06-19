@@ -13,8 +13,8 @@ int main(){
 	char input[42] = "Brace your self, CO328 project is coming!!";
 	int j;
     char output[20]= "okey. i'll sleep without thinking about it"
-	return 0;
+
 	printf("instructor:%s\n",input);
 	printf("student:%s\n",output);
-
+    return 0;
 }
