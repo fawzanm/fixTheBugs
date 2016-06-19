@@ -15,7 +15,7 @@ int main(){
 
 
 	int i;
-	char string[42] = "Brace your self, CO328 project is coming!!";
+	char string[] = "Brace your self, CO328 project is coming!!"; //bug fixed need to remove size of array 
 	int j;
 
 	return 0;
