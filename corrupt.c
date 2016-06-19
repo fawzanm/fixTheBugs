@@ -14,9 +14,16 @@
 int main(){
 
 
-	int i;
+	int i = 0;
 	char string[42] = "Brace your self, CO328 project is coming!!";
-	int j;
+	int j = 0;
+	
+	while(1){
+		scanf("%d",i);
+		if(i == 42) break;
+		printf("%d",string[j]);
+		j++;		
+	}
 
 	return 0;
 }
