@@ -15,8 +15,8 @@ int main(){
 
 
 	int i;
-	char string[42] = "Brace your self, CO328 project is coming!!";
+	char string[45] = "Brace your self, CO328 project is coming!!"; // increased allocated size to print well.(to store \0)
 	int j;
-
+	printf(string);
 	return 0;
 }
