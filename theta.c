@@ -7,9 +7,11 @@
 *	I need a chunk of string for given size,
 *	Am I making a mistake?  You tell me. 
 */
+#include <stdio.h>
+#include <stdlib.h>
 
-
-
+int main(){
+		
 char * giveMeSomeMemory ( int size ){
 	char * str ;
 	if (size > 0)
@@ -17,4 +19,5 @@ char * giveMeSomeMemory ( int size ){
 	if (size == 1)
 		return NULL ;
 	return ( str );
+	}
 }
