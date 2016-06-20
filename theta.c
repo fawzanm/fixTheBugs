@@ -8,7 +8,10 @@
 *	Am I making a mistake?  You tell me. 
 */
 
+#include <stdio.h>
+#include<stdlib.h>
 
+int main(){
 
 char * giveMeSomeMemory ( int size ){
 	char * str ;
@@ -17,4 +20,5 @@ char * giveMeSomeMemory ( int size ){
 	if (size == 1)
 		return NULL ;
 	return ( str );
+}
 }
