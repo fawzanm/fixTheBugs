@@ -16,5 +16,6 @@ char * giveMeSomeMemory ( int size ){
 		str =( char *) malloc ( size );
 	if (size == 1)
 		return NULL ;
-	return ( str );
+	return ( &str );
+	//return ( str );
 }
