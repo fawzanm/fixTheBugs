@@ -15,7 +15,8 @@ int getMin(int *Array, int n) {
 
   for (int i=0; i<n; i++)
     if (Array[i] > currmin)
-      currmin = Array[i];
+	if (Array[i] < currmin)
+		currmin = Array[i];
   return currmin;
 
 }
