@@ -16,7 +16,8 @@ int main(){
 
 	int i;
 	char string[42] = "Brace your self, CO328 project is coming!!";
-	int j;
-
+	for(i=0;i<42;i++) printf("%c",string[i] );
+	 printf("\n");
+	
 	return 0;
 }
