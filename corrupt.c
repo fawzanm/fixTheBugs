@@ -20,3 +20,9 @@ int main(){
 
 	return 0;
 }
+
+/***
+in this code string array already have 42 characters..therefore null character save in next memory address in 
+stack,but outside the allocated memory for array..
+therefore the next integer j store in stack by replacing the null character..
+***/
