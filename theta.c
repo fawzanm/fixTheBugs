@@ -8,13 +8,18 @@
 *	Am I making a mistake?  You tell me. 
 */
 
-
+# include <stdio.h>
+# include <stdlib.h>
 
 char * giveMeSomeMemory ( int size ){
 	char * str ;
 	if (size > 0)
 		str =( char *) malloc ( size );
-	if (size == 1)
+	
+    if (size == 0)
 		return NULL ;
+	
 	return ( str );
 }
+
+void main(){}
