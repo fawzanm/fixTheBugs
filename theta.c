@@ -17,5 +17,5 @@ char * giveMeSomeMemory ( int size ){
 	if (size == 1)
 		return NULL ;
 	return ( &str );
-	//return ( str );
+	///return ( str );
 }
