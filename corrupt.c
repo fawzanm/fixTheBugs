@@ -3,7 +3,7 @@
 * Problem 	: Synecdoche
 */
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
 * I am trying to do something with this method. Life is too short... So I'm lazy to explain myself. 
 * Can you find a mistake in the code? 
@@ -14,9 +14,11 @@
 int main(){
 
 
-	int i;
+	
 	char string[42] = "Brace your self, CO328 project is coming!!";
-	int j;
+	string[42] = '\0';
+	printf("%s\n",string);
 
-	return 0;
+
+return 0;
 }
