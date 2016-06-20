@@ -11,11 +11,13 @@
 * You need a clue? 
 * In the hitch hikers guide to the Galaxy, 42: The answer to life, the universe and everything
 */
+
 int main(){
 
 
 	int i;
-	char string[42] = "Brace your self, CO328 project is coming!!";
+	// do not need the size of the array
+	char string[] = "Brace your self, CO328 project is coming!!";
 	int j;
 
 	return 0;
