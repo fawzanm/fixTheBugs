@@ -3,6 +3,7 @@
 * Problem 	: Synecdoche
 */
 #include <stdio.h>
+#include <string.h>
 
 /**
 * I am trying to do something with this method. Life is too short... So I'm lazy to explain myself. 
@@ -15,8 +16,10 @@ int main(){
 
 
 	int i;
-	char string[42] = "Brace your self, CO328 project is coming!!";
+	char string[43] = "Brace your self, CO328 project is coming!!";
 	int j;
+	printf("%d\n",strlen(string));
+
 
 	return 0;
 }
