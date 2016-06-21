@@ -3,7 +3,7 @@
 * Problem 	: Point of Origin
 */
 #include <stdio.h>
-
+//
 /**
 * I want to print some numbers
 * Can U fxi mE? 
