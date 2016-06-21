@@ -11,10 +11,13 @@
 
 
 char * giveMeSomeMemory ( int size ){
-	char * str ;
-	if (size > 0)
-		str =( char *) malloc ( size );
-	if (size == 1)
-		return NULL ;
-	return ( str );
+ 	char * str ;
+  	if (size > 0)
+ 		str =( char *) malloc ( size );
+ 	if (size == 1)
+ 		return NULL ;
+ 	return ( str );
+ 		return ( char *) malloc ( size );
+ 	else
+ 		return ( char *) NULL;
 }
