@@ -3,7 +3,7 @@
 * Problem 	: Synecdoche
 */
 #include <stdio.h>
-#include <string.h>
+
 
 /**
 * E/12/302
@@ -17,7 +17,8 @@ int main(){
 
 
 	int i;
-	char string[42] = "Brace your self, CO328 project is coming!!";
+	//char string[42] = "Brace your self, CO328 project is coming!!";
+	char string[43] = "Brace your self, CO328 project is coming!!";
 	/**
 	* Char string is too short..It should be 43 in length
 	* No Space to EOS(End Of String) or \0 Character at the end Sugar...
