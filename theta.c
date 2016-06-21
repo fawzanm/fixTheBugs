@@ -8,13 +8,18 @@
 *	Am I making a mistake?  You tell me. 
 */
 
-
+#include <stdlib.h>
 
 char * giveMeSomeMemory ( int size ){
 	char * str ;
 	if (size > 0)
-		str =( char *) malloc ( size );
-	if (size == 1)
+		str =( char *) malloc ( size*sizeof(char));
+	if (size == 0)
 		return NULL ;
 	return ( str );
+}
+
+int main(){
+
+return 0;
 }
