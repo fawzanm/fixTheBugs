@@ -12,7 +12,7 @@
 
 char * giveMeSomeMemory ( int size ){
 	char * str ;
-	if (size > 1)
+	if (size > 0)
 		str =( char *) malloc ( size );
 	if (size == 0)
 		retur`n NULL ;
