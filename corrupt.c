@@ -13,10 +13,9 @@
 */
 int main(){
 
-
 	int i;
-	char string[42] = "Brace your self, CO328 project is coming!!";
-	int j;
-
-	return 0;
-}
+ 	char string[43] = "Brace your self, CO328 project is coming!!";
+	string[42] = 0;
+  	int j;
+  
+  	return 0;

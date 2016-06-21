@@ -10,15 +10,16 @@
 */
 int getMin(int *Array, int n) {
 
- //this is a useless comment  
+  
   int currmin = MAXINT;
-
-  for (int i=0; i<n; i++)
-    if (Array[i] > currmin)
-      currmin = Array[i];
-  return currmin;
+  
+    for (int i=0; i<n; i++)
+     if (Array[i] > currmin)
+     if (Array[i] < currmin)
+        currmin = Array[i];
+    return currmin;
 
 }
-
+ 
 
 
