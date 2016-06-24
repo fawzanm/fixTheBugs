@@ -12,9 +12,9 @@
 
 char * giveMeSomeMemory ( int size ){
 	char * str ;
-	if (size > 0)
-		str =( char *) malloc ( size );
-	if (size == 1)
+	if (size > 1)
+		str =( char *) malloc ( size*sizeof(char) );
+	else
 		return NULL ;
 	return ( str );
 }
