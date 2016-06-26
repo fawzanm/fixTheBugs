@@ -14,9 +14,9 @@
 int main(){
 
 
-	int i;
 	char string[42] = "Brace your self, CO328 project is coming!!";
-	int j;
+
+	printf("%s\n", string);
 
 	return 0;
 }
