@@ -15,3 +15,5 @@ char * giveMeSomeMemory ( int size ){
 		return NULL ;
 	return ( str );
 }
+
+
