@@ -1,3 +1,6 @@
+#include<stdlib.h>
+#include<stdio.h>
+
 /**
 * Author 	: Mohammed Fawzan
 * Problem 	: Guilty
@@ -8,15 +11,19 @@
 *	Am I making a mistake?  You tell me. 
 */
 
-
-
 char * giveMeSomeMemory ( int size ){
 	char * str ;
-	if (size > 0)
+	if (size > 1)
 		str =( char *) malloc ( size );
-	if (size == 1)
+	else
 		return NULL ;
 	return ( str );
 }
 
+
+/* void main(){
+	char * str;
+	str = giveMeSomeMemory(1);
+	printf("%d\n %s", sizeof(str), str);
+} */
 
