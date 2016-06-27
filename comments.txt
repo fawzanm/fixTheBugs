@@ -1,1 +1,12 @@
-@Fawzan : I'm carazy. :D
+E/11/209
+
+
+1. In the min.c program, variable MAXINT did not declared and did not initialized, For that i just removed that and assign Array's 0th element as currmin.
+	And also, comparision logic was wrong. If the Array[i] less than currmin then only currmin will be updated by Array[i] value.
+
+2. In the corrupt.c program, integers i,j did not initialized and used. And also when we run the code, there is an additional @ sign comes in.
+	Don't know why. So i just increase the char array's length by 1.
+
+3.  In numbers.c program, Double quotetions has to be used for String.
+
+4. In theta.c program, NULL is the keyword. We can use none of the KEY WORDS to declar variables, class name, functions etc.

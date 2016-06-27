@@ -11,6 +11,9 @@
 * You need a clue? 
 * In the hitch hikers guide to the Galaxy, 42: The answer to life, the universe and everything
 */
+
+
+/**
 int main(){
 
 
@@ -20,3 +23,16 @@ int main(){
 
 	return 0;
 }
+*/
+
+int main(){
+	int i = 0;
+	char string[43] = "Brace your self, CO328 project is coming!!";
+	int j = 0;
+	
+	printf("%d %s %d \n", i, string, j);
+	return 0;
+}
+
+//String length has been initialized.
+//Integers did not initialized and used
