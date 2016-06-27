@@ -12,7 +12,8 @@
 *	@param int n 	number of elements in the array
 */
 int getMin(int *Array, int n) {
-  
+
+ //this is a useless comment  
   int currmin = MAXINT;
 
   for (int i=0; i<n; i++)
