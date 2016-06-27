@@ -6,7 +6,7 @@
 
 /**
 * I want to print some numbers
-* Can U fxi mE? 
+* Can U fix mE? 
 */
 int main(){
 
