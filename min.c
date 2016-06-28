@@ -4,13 +4,15 @@
 */
 
 #include<stdio.h>
-#define MAXINT 100000;
+
 
 /**
 *	Find the minimum vlue from a given integer array
 * 	@param int* A 	pointeer to an integer array
 *	@param int n 	number of elements in the array
 */
+#define MAXINT 100000;
+
 int getMin(int *Array, int n) {
 
  //this is a useless comment  
