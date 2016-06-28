@@ -15,8 +15,10 @@ int main(){
 
 
 	int i;
-	char string[42] = "Brace your self, CO328 project is coming!!";
+	// Required enough space for the string to store
+	char string[43] = "Brace your self, CO328 project is coming!!";
 	int j;
+	//printf("%s", string);
 
 	return 0;
 }
