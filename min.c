@@ -3,6 +3,9 @@
 * Problem 	: If Then Else
 */
 
+#include<stdio.h>
+#define MAXINT 100000;
+
 /**
 *	Find the minimum vlue from a given integer array
 * 	@param int* A 	pointeer to an integer array
@@ -20,5 +23,11 @@ int getMin(int *Array, int n) {
 
 }
 
+int main(){
 
+	int A[] = {4, 5, 6, 1, 3, 4, 5, 10};
+	int min = getMin(A, 8);
+	printf("min = %d\n", min);
+	return 0;
+}
 
