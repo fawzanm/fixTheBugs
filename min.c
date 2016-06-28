@@ -7,9 +7,9 @@
 #define MAXINT 100000;
 
 /**
-*	Find the minimum vlue from a given integer array
-* 	@param int* A 	pointeer to an integer array
-*	@param int n 	number of elements in the array
+*	Find the minimum value from a given integer array
+* 	@param int* A pointer to an integer array
+*	@param int n number of elements in the array
 */
 int getMin(int *Array, int n) {
 
