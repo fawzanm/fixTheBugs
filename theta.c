@@ -13,8 +13,8 @@
 char * giveMeSomeMemory ( int size ){
 	char * str ;
 	if (size > 0)
-		str =( char *) malloc ( size );
-	if (size == 1)
+		str =( char *) malloc ( sizeof(char)*size );
+	else
 		return NULL ;
 	return ( str );
 }
