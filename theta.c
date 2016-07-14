@@ -1,22 +1,22 @@
+
 /**
-* Author 	: Mohammed Fawzan
-* Problem 	: Guilty
+* Author : Mohammed Fawzan
+* Problem : Guilty
 */
 
 /**
-*	I need a chunk of string for given size,
-*	Am I making a mistake?  You tell me. 
+* I need a chunk of string for given size,
+* Am I making a mistake? You tell me.
 */
 
-
+#include <stdlib.h>
 
 char * giveMeSomeMemory ( int size ){
-	char * str ;
+char * str ;
 	if (size > 0)
-		str =( char *) malloc ( size );
-	if (size == 1)
-		return NULL ;
-	return ( str );
+	 str =( char *) malloc ( size );
+	else
+       	 return NULL ;
+	
+return ( str );
 }
-
-
