@@ -11,8 +11,9 @@
 * 	@param int* A 	pointeer to an integer array
 *	@param int n 	number of elements in the array
 */
-int getMin(int *Array, int n) {
 
+int getMin(int *Array, int n) {
+int MAXINT;
  //this is a useless comment  
   int currmin = MAXINT;
 
